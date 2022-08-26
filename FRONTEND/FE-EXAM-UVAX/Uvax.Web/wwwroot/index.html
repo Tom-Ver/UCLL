@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html lang="nl-be">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>UVAX Reservelijst</title>
+</head>
+<body class="container">
+    <h1 class="text-center fst-italic">UVAX RESERVELIJST</h1>
+    <hr />
+    <h3 class="container-sm text-center fw-light">Contacteren</h3>
+    <hr />
+    <form class="border bg-light container-sm">
+        <div class="row mb-3">
+            <label for="insznum" class="col-sm-2 col-form-label">INSZ</label>
+            <div class="col-sm-4">
+                <input type="number" readonly class="form-control" name="insz">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Voornaam" class="col-sm-2 col-form-label">Voornaam</label>
+            <div class="col-sm-4">
+                <input type="text" readonly class="form-control" name="voornaam">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Familienaam" class="col-sm-2 col-form-label">Familienaam</label>
+            <div class="col-sm-4">
+                <input type="text" readonly class="form-control" name="familienaam">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="Telefoonnr" class="col-sm-2 col-form-label">Telefoonnummer</label>
+            <div class="col-sm-4">
+                <input type="tel" readonly class="form-control" name="telefoonnr">
+            </div>
+        </div>
+    </form>
+            <p></p>
+            <div class="row mb-3 bg-white">
+                <div class="col-sm-2">
+                    <input type="button" class="btn btn-primary" name="nietBeschikbaar" value="Niet Beschikbaar">
+                </div>
+                <div class="col-sm-2 border">
+                    <input type="button" class="btn btn-success" name="Beschikbaar" value="Beschikbaar">
+                    <p></p>
+                    <label for="inszBeschikbaar">Valt in voor INSZ :</label>
+                    <input type="text" class="form-control col-sm-2" name="inszBeschikbaar">
+                    <span id="foutcode"></span>
+                </div>
+                <div class="col-sm-2">
+                    <input type="button" class="btn btn-warning" name="nietBeschikbaar2" value="Niet Beschikbaar">
+                </div>
+            </div>
+        
+    
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

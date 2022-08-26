@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:id="@+id/tr">
+
+        <TextView
+
+            android:id="@+id/City_tv"
+            android:layout_width="40dp"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="City"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/Device_tv"
+            android:layout_width="40dp"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Device"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ProblemCode_tv"
+            android:layout_width="20dp"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Problem Code"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/Name_tv"
+            android:layout_width="20dp"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/Processed_tv"
+            android:enabled="false"
+            android:visibility="gone"
+            android:layout_width="15dp"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Processed"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/Processed_btn"
+            android:visibility="gone"
+            android:enabled="true"
+            android:layout_width="15dp"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="NO"
+            android:textColor="@color/white" />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,22 @@
+{
+  "name": "uvax.web",
+  "version": "1.0.0",
+  "description": "UCLL Front-End Examen Uvax",
+  "main": "index.js",
+  "scripts": {
+    "test": "Dit is een test"
+  },
+  "keywords": [
+    "UCLL",
+    "Tom.Vervaeren",
+    "Test",
+    "Examen",
+    "Uvax"
+  ],
+  "author": "Tom Vervaeren",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ElectroMan</string>
+    <string name="hint_log_in_username">Username</string>
+    <string name="hint_log_in_password">Password</string>
+    <string name="btn_log_in">GO</string>
+
+
+
+    <string name="txt_customerName">Customer Name:</string>
+    <string name="txt_city">City:</string>
+    <string name="txt_device">Device:</string>
+    <string name="txt_problemCode">Problem Code:</string>
+    <string name="txt_processed">Processed:</string>
+    <string name="txt_detail">Problem Description:</string>
+    <string name="txt_repairInfo">Repair Information:</string>
+
+    <string name="btn_back">BACK</string>
+    <string name="btn_save">SAVE</string>
+
+
+
+</resources>

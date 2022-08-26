@@ -1,0 +1,59 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>UCLL Front-End Quiz</title>
+</head>
+<body class="container-md">
+    <p>
+        <header class="header">
+            <div>
+                <a href="http://www.ucll.be"><img class="headerImg" src="img/logo.png" alt="Logo Ucll"></a>
+                <div class="text-md-center"><h1 class="text-white">Front-End Quiz</h1></div>
+            </div>
+        </header>
+    </p>
+    <br />
+    <div>
+        <div class="text-md-center"><h4 class="text-black">Selecteer telkens 1 antwoord op de vraag.</h4></div>
+    </div>
+    <section id="questions">
+        <form>
+            <fieldset class="form-group">
+                <legend>
+                </legend>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="answers" value="0">
+                        <span id="answer0"></span>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="answers" value="1">
+                        <span id="answer1"></span>
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="answers" value="2">
+                        <span id="answer2"></span>
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="answers" value="3">
+                        <span id="answer3"></span>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <script src="js/main.js"></script>
+    <link href="css/quizInStyle.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

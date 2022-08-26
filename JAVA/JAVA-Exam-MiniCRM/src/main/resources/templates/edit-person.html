@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Edit person</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+<nav th:insert="~{navigation-bar :: navbar}"></nav>
+
+<div class="container ml-3 mt-4">
+
+    <h2>Edit person</h2>
+
+    <form th:action="@{/persons}" th:object="${person}" method="post"
+          class="mt-4">
+        <div class="form-group row" hidden>
+            <label for="id col-form-label col-sm-2">Id</label>
+            <input type="hidden" th:field="*{id}" id="id"
+                   class="form-control col-sm-6 ml-2" placeholder="id" />
+        </div>
+        <div class="form-group row">
+            <label for="lastname col-form-label col-sm-2">Lastname</label>
+            <input type="text" th:field="*{lastName}" id="LastName"
+                   class="form-control col-sm-6 ml-2" placeholder="LastName" />
+        </div>
+        <div class="form-group row">
+            <label for="firstname col-form-label col-sm-2">Firstname</label>
+            <input type="text" th:field="*{firstName}" id="Firstname"
+                   class="form-control col-sm-6 ml-2" placeholder="Firstname" />
+        </div>
+        <div class="form-group row">
+            <label for="birthDay col-form-label col-sm-2">Birth Day</label>
+            <input type="text" th:field="*{birthDay}" id="birthDay"
+                   class="form-control col-sm-6 ml-2" placeholder="dd-mm-yyyy" />
+        </div>
+        <input type="submit" value="Save person"
+               class="btn btn-primary ml-2" />
+        <a th:href="@{/persons}" class="btn btn-primary ml-2">Cancel</a>
+    </form>
+</div>
+</body>
+</html>

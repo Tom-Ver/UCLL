@@ -1,0 +1,20 @@
+{
+  "name": "frontendgevorderdquiz.web",
+  "version": "1.0.0",
+  "description": "Ucll FEG Quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "Dit is een Test"
+  },
+  "keywords": [
+    "Ucll",
+    "Quiz",
+    "Opdracht"
+  ],
+  "author": "Tom Vervaeren",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
